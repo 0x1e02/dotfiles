@@ -170,8 +170,17 @@ bar {
 }
 
 default_border pixel 1
-default_floating_border pixel 1 
-gaps inner 10
-gaps outer -5 
+default_floating_border pixel 1
+gaps inner 30
 exec --no-startup-id feh --bg-fill ~/Downloads/bg.jpg
-exec --no-startup-id compton #--blur-background
+exec --no-startup-id compton 
+
+client.focused		#ffffff #ffffff	#000000	#ffffff	#ffffff
+client.unfocused	#000000	#000000	#ffffff	#000000	#000000
+client.focused_inactive	#ffffff #ffffff	#000000	#ffffff	#ffffff
+client.urgent		#ffffff #ffffff	#000000	#ffffff	#ffffff
+client.placeholder	#ffffff #ffffff	#000000	#ffffff	#ffffff
+
+# Autostart Spotify
+exec --no-startup-id spotify
+for_window [class="Spotify"] move to workspace $ws10
