@@ -1,0 +1,18 @@
+[global]
+	monitor = 0
+	geometry = "300x5-30+20"
+	transparency = 10
+	separator_height = 2
+	padding = 8
+	horizontal_padding = 8
+	format = "<b>%s</b>\n%b"
+	ellipsize = end
+	icon_position = left
+	icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
+	corner_radius = 8
+[urgency_low]
+	background = "#444444"
+[urgency_normal]
+	background = "#444444"
+[urgency_critical]
+	background = "#444444"
