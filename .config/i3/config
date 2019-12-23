@@ -188,8 +188,11 @@ for_window [class="Spotify"] move to workspace $ws10
 # Media Keys
 #bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5%
 #bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5%
-bindsym XF86AudioRaiseVolume exec ~/.config/i3/scripts/raiseVolume.py 
-bindsym XF86AudioLowerVolume exec ~/.config/i3/scripts/lowerVolume.py 
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
-bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 10
-bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10
+#bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
+bindsym XF86AudioRaiseVolume exec ~/.config/i3/scripts/volumeIncrease.py
+bindsym XF86AudioLowerVolume exec ~/.config/i3/scripts/volumeDecrease.py
+bindsym XF86AudioMute exec exec ~/.config/i3/scripts/volumeMute.py
+#bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 10
+#bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10
+bindsym XF86MonBrightnessUp exec ~/.config/i3/scripts/backlightIncrease.py
+bindsym XF86MonBrightnessDown exec ~/.config/i3/scripts/backlightDecrease.py 
