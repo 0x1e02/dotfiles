@@ -4,3 +4,4 @@
 * **dunst** notification server
 * **termite** terminal emulator
 * **netctl** network manager
+* **gnome-icon-theme** notifications icons
