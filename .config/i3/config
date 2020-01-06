@@ -196,3 +196,5 @@ bindsym XF86AudioMute exec exec ~/.config/i3/scripts/volumeMute.py
 #bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10
 bindsym XF86MonBrightnessUp exec ~/.config/i3/scripts/backlightIncrease.py
 bindsym XF86MonBrightnessDown exec ~/.config/i3/scripts/backlightDecrease.py 
+
+#floating_maximum_size 500 x 400

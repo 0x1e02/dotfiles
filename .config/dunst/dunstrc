@@ -10,6 +10,10 @@
 	icon_position = left
 	icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
 	corner_radius = 8
+[spotify]
+	appname = Spotify
+	background = "#1db954"
+	foreground = "#ffffff"
 [urgency_low]
 	background = "#444444"
 [urgency_normal]
