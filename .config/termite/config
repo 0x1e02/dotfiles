@@ -1,8 +1,8 @@
 [options]
-font = Monospace 12
+font = Monospace 14
 
 [colors]
-# color palette inspired by https://github.com/dustinsanders/an-old-hope-theme-vscode
+# color palette ins#pired by https://github.com/dustinsanders/an-old-hope-theme-vscode
 background = #1c1d21
 foreground = #cdcdd2
 highlight = #2F3137
